@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100;600..900&display=swap');
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.site{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/*Uso de flexbox aqui*/
+.conteudo{
+    margin: 10% 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo1{
+    width: 615px;
+}
+
+.image_dev{
+    height: 55vh;
+    width: 45vh;
+}
+
+.titulo_conteudo1{
+    color: white;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+.titulo_destaque{
+    color:#22D4FD;
+
+}
+
+.paragrafo_conteudo1{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aparenteBotao{
+    background-color:#22D4FD;
+    color: #000000;
+    padding: 21.5px 0;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+
